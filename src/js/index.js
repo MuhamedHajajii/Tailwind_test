@@ -1,3 +1,5 @@
+import "flowbite";
+
 document.addEventListener("DOMContentLoaded", () => {
   const isDarkMode = localStorage.getItem("darkMode") === "true";
   if (isDarkMode) {
